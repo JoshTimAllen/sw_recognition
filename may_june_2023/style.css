@@ -12,6 +12,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center; 
+background-size: cover; background-repeat: no-repeat;
 }
 
 .flipbook-container {
