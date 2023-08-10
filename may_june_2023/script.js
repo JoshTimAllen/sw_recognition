@@ -263,8 +263,8 @@
 var $flipbook = $(".sample-flipbook");
 
 $flipbook.turn({
-    width: 792,
-    height: 560
+    width: 850,
+    height: 601
 });
 
 $('.btn.next').click(function (e) {
