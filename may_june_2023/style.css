@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./bk.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('./bk.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
