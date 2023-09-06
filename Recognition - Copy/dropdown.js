@@ -1,6 +1,7 @@
 
+var musicPaths = ["", "Valiant - Expensive beats in a Panama.mp3","Halle - Angel.mp3"];
 
-
+console.log(musicPaths[1]);
 
 
 var x, i, j, l, ll, selElmnt, a, b, c;
@@ -81,7 +82,7 @@ c.setAttribute("onclick" ,"selectMusic(" + j + ")");
 
    if(musicSelection == j){
      a.innerHTML = selElmnt.options[j].innerHTML;
-playMusic(j);
+playMusic(musicPaths[j]);
    }
 
     c.addEventListener("click", function(e) {
@@ -149,8 +150,14 @@ then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
 
-function selectMusic(val){
-   localStorage.setItem("MusicSelection", val);
-playMusic(val);
+function selectMusic(index){
+   localStorage.setItem("MusicSelection", index);
+playMusic(musicPaths[index]);
 }
 
+
+
+
+
+
+       

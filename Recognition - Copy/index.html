@@ -8,7 +8,7 @@
     <meta name="robots" content="noindex">
     <link rel="icon" href="icon.png">
     <link href="style.css" rel="stylesheet">
-<link href="dropup.css" rel="stylesheet">
+    <link href="dropup.css" rel="stylesheet">
     <title>Sunwing Monthly Recognition</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -17,8 +17,8 @@
 <div class="custom-select" style="width:200px;">
   <select onchange="clc(7)">
     <option value="0">Select a Music:</option>
-    <option value="1">Expensive beats in a Panama</option>
-    <option value="2"> BMV </option>
+    <option value="1">Expensive beats into the Panama</option>
+    <option value="2">Halle - Angel</option>
     
   </select>
 </div>
@@ -31,20 +31,23 @@
     <audio id="audio" autoplay loop>
   <source id="audio-source" src="" type="audio/mp3">
 </audio>
+
 	<script>
 		var aud = document.getElementById("audio");
    		var audioSrc = document.getElementById("audio-source");
 		aud.volume = 0.1;
 
-      function playMusic(path){
-		audioSrc.setAttribute("src", "" + path + ".mp3");
+        function playMusic(path){
+		audioSrc.setAttribute("src", "" + "music/" + path);
 		aud.pause();
 		aud.load();
 		aud.currentTime = 0;
 		aud.play();
-       }
+        }
 
 	</script>
-    <script src="./dropdown.js"></script>
+    
+<script src="./dropdown.js"></script>
+
 </body>
 </html>
