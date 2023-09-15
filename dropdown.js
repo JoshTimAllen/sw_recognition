@@ -1,5 +1,10 @@
 
-var musicPaths = ["", "Valiant - Expensive beats in a Panama.mp3","Halle - Angel.mp3"];
+var musicPaths = ["",
+ "Valiant - Expensive beats in a Panama.mp3",
+"Halle - Angel.mp3",
+"Aqyila - Hello.mp3",
+"Najeeriii - Paddle Boat.mp3",
+"Ice Spice Nicki Minaj - Barbie World Clean.mp3"];
 
 console.log(musicPaths[1]);
 
