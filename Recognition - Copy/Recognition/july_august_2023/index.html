@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”robots” content=”noindex,nofollow”>
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../icon.png">
+    <link href="style.css" rel="stylesheet">
+    <link href="../dropup.css" rel="stylesheet">
+    <title>Sunwing Monthly Recognition</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+
+<div class="upper-content">
+<button id="muteButton" onclick="muteMusic()"> UNMUTE </button>
+<div class="custom-select" style="width:200px;">
+  <select onchange="clc(7)">
+    <option value="0">Select a Music:</option>
+    <option value="1">Expensive beats into the Panama</option>
+    <option value="2">Halle - Angel</option>
+    <option value="3">Aqyila - Hello</option>
+	<option value="4">Najeeriii - Paddle Boat</option>
+	<option value="5">Ice Spice Nicki Minaj - Barbie world</option>
+
+  </select>
+</div>
+</div>
+
+
+
+
+    <div class="flipbook-container">
+    <div class="flipbook-wrap">
+        <a style=" -webkit-user-select: none;
+        /* Safari */
+        -ms-user-select: none;
+        /* IE 10 and IE 11 */
+        user-select: none; color: white; font-size: 70px;" href="" class="btn prev"><</a>
+      <div class="sample-flipbook">
+          <div class="hard"> <img src="./contentpages/1.png" alt="" /></div>
+          <div class="hard"><img src="./contentpages/2.png" alt="" /></div>
+          <!-- <div> <img src="./contentpages/1.png" alt="" /> </div>
+          <div> <img src="./contentpages/2.png" alt="" /> </div> -->
+          <div> <img src="./contentpages/3.png" alt="" /> </div>
+          <div> <img src="./contentpages/4.png" alt="" /> </div>
+          <div> <img src="./contentpages/5.png" alt="" /> </div>
+          <div> <img src="./contentpages/6.png" alt="" /> </div>
+          <div> <img src="./contentpages/7.png" alt="" /> </div>
+          <div> <img src="./contentpages/8.png" alt="" /> </div>
+          <div> <img src="./contentpages/9.png" alt="" /> </div>
+          <div> <img src="./contentpages/10.png" alt="" /> </div>
+          <div> <img src="./contentpages/11.png" alt="" /> </div>
+          <div> <img src="./contentpages/12.png" alt="" /> </div>
+          <div> <img src="./contentpages/13.png" alt="" /> </div>
+          <div> <img src="./contentpages/14.png" alt="" /> </div>
+          <div> <img src="./contentpages/15.png" alt="" /> </div>
+          <div> <img src="./contentpages/16.png" alt="" /> </div>
+          <div> <img src="./contentpages/17.png" alt="" /> </div>
+          <div> <img src="./contentpages/18.png" alt="" /> </div>
+          <div> <img src="./contentpages/19.png" alt="" /> </div>
+          <div> <img src="./contentpages/20.png" alt="" /> </div>
+          <div> <img src="./contentpages/21.png" alt="" /> </div>
+          <div> <img src="./contentpages/22.png" alt="" /> </div>
+          <div> <img src="./contentpages/23.png" alt="" /> </div>
+          <div> <img src="./contentpages/24.png" alt="" /> </div>
+          <div> <img src="./contentpages/25.png" alt="" /> </div>
+          <div> <img src="./contentpages/26.png" alt="" /> </div>
+          <div> <img src="./contentpages/27.png" alt="" /> </div>
+          <div> <img src="./contentpages/28.png" alt="" /> </div>
+          <div> <img src="./contentpages/29.png" alt="" /> </div>
+          <div> <img src="./contentpages/30.png" alt="" /> </div>
+          <div> <img src="./contentpages/31.png" alt="" /> </div>
+          <div> <img src="./contentpages/32.png" alt="" /> </div>
+          <div> <img src="./contentpages/33.png" alt="" /> </div>
+          <div> <img src="./contentpages/34.png" alt="" /> </div>
+          <div> <img src="./contentpages/35.png" alt="" /> </div>
+          <div> <img src="./contentpages/36.png" alt="" /> </div>
+          <div> <img src="./contentpages/37.png" alt="" /> </div>
+          <div> <img src="./contentpages/38.png" alt="" /> </div>
+          <div class="hard"> <img src="./contentpages/39.png" alt="" /> </div>
+          <div class="hard"> <img src="./contentpages/40.png" alt="" /> </div>
+      
+      </div>
+          <a style=" -webkit-user-select: none;
+          /* Safari */
+          -ms-user-select: none;
+          /* IE 10 and IE 11 */
+          user-select: none; color: white; font-size: 70px;" href="" class="btn next">></a>
+      
+      </div>
+    </div>
+    
+    <script src="./script.js"></script>
+
+<audio id="audio" autoplay muted loop>
+  <source id="audio-source" src="" type="audio/mp3">
+</audio>
+
+	<script>
+		var aud = document.getElementById("audio");
+   		var audioSrc = document.getElementById("audio-source");
+		aud.volume = 0.1;
+
+        function playMusic(path){
+		audioSrc.setAttribute("src", "../" + "music/" + path);
+		aud.pause();
+		aud.load();
+		aud.currentTime = 0;
+	aud.play();	
+aud.muted = false;
+
+        }
+
+	</script>
+    
+<script src="../dropdown.js"></script>
+
+</body>
+</html>
