@@ -160,8 +160,25 @@ function selectMusic(index){
 playMusic(musicPaths[index]);
 }
 
+var isPaused = true
+;
+function muteMusic(){
+	var aud = document.getElementById("audio");
+   		var audioSrc = document.getElementById("audio-source");
+var muteButton = document.getElementById("muteButton");
 
+if(isPaused){
+	isPaused = false;
+	aud.play();
+	muteButton.innerHTML = "MUTE";
+}
+else{
+	isPaused = true;
+	aud.pause();
+	muteButton.innerHTML = "UNMUTE";
+}
 
+}
 
 
 

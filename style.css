@@ -25,6 +25,9 @@ body {
     color: white;
     text-decoration: none;
     text-align: center;
+
+margin:10px;
+padding: 5px;
 }
 
 .content {
@@ -33,4 +36,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.upper-content{
+   display: flex;
+    align-items: center;
+   justify-content: right;
+}
+
+#muteButton{
+height:52px;
+width: 100px;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+color: white;
+/*border-radius: 8px;*/
+margin-right: 25px;
 }
