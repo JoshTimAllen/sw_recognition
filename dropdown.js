@@ -4,7 +4,19 @@ var musicPaths = ["",
 "Halle - Angel.mp3",
 "Aqyila - Hello.mp3",
 "Najeeriii - Paddle Boat.mp3",
-"Ice Spice Nicki Minaj - Barbie World Clean.mp3"];
+"Ice Spice Nicki Minaj - Barbie World Clean.mp3",
+"KAKA HIGHFLAMES  - FLAMEZ ROCK.mp3",
+"Flamez Rock - Kaka Highflames (sped up).mp3",
+"Valiant - Mad Out.mp3",
+"DJ Mac x Teejay - Drift.mp3",
+"450 - Bad Gyal.mp3",
+"450 - Millions.mp3",
+"450 x Shaneil Muir - Crawsis.mp3",
+"Malie Donn - V6.mp3",
+"Valiant x Stalk Ashley - Narcissist .mp3",
+"Beyoncé - CUFF IT.mp3",
+"Rema & Selena Gomez - Calm Down.mp3",
+];
 
 console.log(musicPaths[1]);
 
