@@ -17,7 +17,7 @@ var musicPaths = ["",
 "Beyoncé - CUFF IT.mp3",
 "Rema & Selena Gomez - Calm Down.mp3",
 
-p
+
 "sometimes you just know - daniel beddingfield.mp3", 
 "Years & Years - Breathe.mp3", 
 "Mavado_ High Life.mp3",
