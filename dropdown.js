@@ -16,6 +16,8 @@ var musicPaths = ["",
 "Valiant x Stalk Ashley - Narcissist .mp3",
 "Beyoncé - CUFF IT.mp3",
 "Rema & Selena Gomez - Calm Down.mp3",
+		  "sometimes you just know - daniel beddingfield.mp3", 
+		  "Years & Years - Breathe.mp3"
 ];
 
 console.log(musicPaths[1]);
