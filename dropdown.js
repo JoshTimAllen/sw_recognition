@@ -16,9 +16,17 @@ var musicPaths = ["",
 "Valiant x Stalk Ashley - Narcissist .mp3",
 "Beyoncé - CUFF IT.mp3",
 "Rema & Selena Gomez - Calm Down.mp3",
-		  "sometimes you just know - daniel beddingfield.mp3", 
-		  "Years & Years - Breathe.mp3"
-];
+
+p
+"sometimes you just know - daniel beddingfield.mp3", 
+"Years & Years - Breathe.mp3", 
+"Mavado_ High Life.mp3",
+"Say Yes - Michelle Williams ft. Beyoncé, Kelly Rowland.mp3",
+"Kirk Franklin - I Smile.mp3", 
+"The Weeknd  - Call Out My Name.mp3"
+
+
+		  ];
 
 console.log(musicPaths[1]);
 
