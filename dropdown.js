@@ -23,8 +23,12 @@ var musicPaths = ["",
 
 "Say Yes - Michelle Williams ft. Beyoncé, Kelly Rowland.mp3",
 "Kirk Franklin - I Smile.mp3", 
-"The Weeknd  - Call Out My Name.mp3", 
+		  
+"The Weeknd  - Call Out My Name.mp3",
+"The Weeknd - Wasted times.mp3",		  
 "Mavado_ High Life.mp3",
+"Chronic Law - Area 51.mp3", 
+"Chronic Law - Empty.mp3", 
 
 		  ];
 
