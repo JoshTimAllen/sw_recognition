@@ -53,3 +53,7 @@ color: white;
 margin-right: 25px;
     overflow:auto;
 }
+
+.select-items{
+overflow:auto;
+}
