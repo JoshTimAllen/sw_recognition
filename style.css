@@ -56,4 +56,5 @@ margin-right: 25px;
 
 .select-items{
 overflow:auto;
+    max-height:500px;
 }
