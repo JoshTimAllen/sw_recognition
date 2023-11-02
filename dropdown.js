@@ -20,11 +20,11 @@ var musicPaths = ["",
 
 "sometimes you just know - daniel beddingfield.mp3", 
 "Years & Years - Breathe.mp3", 
-"Mavado_ High Life.mp3",
+
 "Say Yes - Michelle Williams ft. Beyoncé, Kelly Rowland.mp3",
 "Kirk Franklin - I Smile.mp3", 
-"The Weeknd  - Call Out My Name.mp3"
-
+"The Weeknd  - Call Out My Name.mp3", 
+"Mavado_ High Life.mp3",
 
 		  ];
 
