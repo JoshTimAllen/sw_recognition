@@ -16,11 +16,8 @@ var musicPaths = ["",
 "Valiant x Stalk Ashley - Narcissist .mp3",
 "Beyoncé - CUFF IT.mp3",
 "Rema & Selena Gomez - Calm Down.mp3",
-
-
 "sometimes you just know - daniel beddingfield.mp3", 
-"Years & Years - Breathe.mp3", 
-
+"Years & Years - Breathe.mp3",
 "Say Yes - Michelle Williams ft. Beyoncé, Kelly Rowland.mp3",
 "Kirk Franklin - I Smile.mp3", 
 "Whitney Houston - I Look To You.mp3", 
@@ -28,11 +25,10 @@ var musicPaths = ["",
 "The Weeknd - Wasted times.mp3",		  
 "Mavado_ High Life.mp3",
 "Chronic Law - Area 51.mp3", 
-"Chronic Law - Empty.mp3", 
+"Chronic Law - Empty.mp3",
+		 ];
 
-		  ];
 
-console.log(musicPaths[1]);
 
 
 var x, i, j, l, ll, selElmnt, a, b, c;
