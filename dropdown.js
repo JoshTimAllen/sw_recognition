@@ -26,6 +26,7 @@ var musicPaths = ["",
 "Mavado_ High Life.mp3",
 "Chronic Law - Area 51.mp3", 
 "Chronic Law - Empty.mp3",
+		  "Squash - Surgery.mp3",
 		 ];
 
 
