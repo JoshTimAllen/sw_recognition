@@ -27,7 +27,11 @@ var musicPaths = ["",
 "Chronic Law - Area 51.mp3", 
 "Chronic Law - Empty.mp3",
 		  "Squash - Surgery.mp3",
-		  "Chronic Law - Garrison Above.mp3"
+		  "Chronic Law - Garrison Above.mp3",
+		  "Chronic law Mix 2023.mp3",
+		  "Masicka - Angels Don’t Cry.mp3",
+		  "Masicka - Broken Home.mp3",
+		  "Masicka, Popcaan - Stars R Us.mp3"
 		 ];
 
 
